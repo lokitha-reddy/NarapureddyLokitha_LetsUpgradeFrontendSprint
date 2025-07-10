@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savory Stories - Culinary Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/lucide@latest/dist/umd/lucide.js" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="chef-hat"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Savory Stories</h1>
+                        <p>Culinary Adventures</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#recipes" class="nav-link">Recipes</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <a href="#categories" class="nav-link">Categories</a>
+                    <a href="#about" class="nav-link">About</a>
+                </nav>
+
+                <!-- Search Bar -->
+                <form class="search-form" id="searchForm">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search recipes..." class="search-input">
+                        <i data-lucide="search" class="search-icon"></i>
+                    </div>
+                </form>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <a href="#" class="mobile-nav-link">Home</a>
+                <a href="#recipes" class="mobile-nav-link">Recipes</a>
+                <a href="#blog" class="mobile-nav-link">Blog</a>
+                <a href="#categories" class="mobile-nav-link">Categories</a>
+                <a href="#about" class="mobile-nav-link">About</a>
+                
+                <!-- Mobile Search -->
+                <form class="mobile-search" id="mobileSearchForm">
+                    <div class="search-container">
+                        <input type="text" id="mobileSearchInput" placeholder="Search recipes..." class="search-input">
+                        <i data-lucide="search" class="search-icon"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        ⭐ Featured Recipe of the Day
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Discover Amazing
+                        <span class="hero-gradient">Flavors</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Explore our collection of carefully crafted recipes, cooking tips, and culinary stories 
+                        that will inspire your next kitchen adventure.
+                    </p>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon orange">
+                                <i data-lucide="star"></i>
+                            </div>
+                            <div class="stat-text">
+                                <p class="stat-number">500+</p>
+                                <p class="stat-label">Recipes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-icon red">
+                                <i data-lucide="clock"></i>
+                            </div>
+                            <div class="stat-text">
+                                <p class="stat-number">Quick</p>
+                                <p class="stat-label">30 min meals</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-item">
+                            <div class="stat-icon yellow">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="stat-text">
+                                <p class="stat-number">50K+</p>
+                                <p class="stat-label">Food lovers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <button class="btn-primary">Explore Recipes</button>
+                        <button class="btn-secondary">Watch Cooking Videos</button>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Featured Recipe">
+                    </div>
+                    
+                    <!-- Floating Recipe Card -->
+                    <div class="floating-card">
+                        <div class="floating-card-header">
+                            <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Recipe">
+                            <div>
+                                <h3>Mushroom Risotto</h3>
+                                <div class="rating">
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <i data-lucide="star" class="star-filled"></i>
+                                    <span>4.8</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="floating-card-stats">
+                            <span>⏱️ 40 min</span>
+                            <span>👥 4 servings</span>
+                            <span>🔥 Medium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore by Category</h2>
+                <p>Discover recipes organized by your favorite food categories</p>
+            </div>
+
+            <div class="categories-grid" id="categoriesGrid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="recipes" id="recipes">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="recipesTitle">Featured Recipes</h2>
+                <p id="recipesDescription">Discover our most popular and delicious recipes</p>
+                <button id="backToAllRecipes" class="back-btn" style="display: none;">
+                    ← Back to all recipes
+                </button>
+            </div>
+
+            <div class="recipes-grid" id="recipesGrid">
+                <!-- Recipes will be populated by JavaScript -->
+            </div>
+
+            <div class="no-results" id="noResults" style="display: none;">
+                <p>No recipes found matching your criteria.</p>
+                <button class="btn-primary" id="viewAllRecipes">View All Recipes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest from the Blog</h2>
+                <p>Cooking tips, techniques, and stories from our culinary experts</p>
+            </div>
+
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts will be populated by JavaScript -->
+            </div>
+
+            <div class="section-footer">
+                <button class="btn-primary">View All Posts</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-icon">
+                    <i data-lucide="mail"></i>
+                </div>
+                
+                <div class="newsletter-text">
+                    <h2>Never Miss a Recipe</h2>
+                    <p>Get the latest recipes, cooking tips, and culinary inspiration delivered straight to your inbox</p>
+                </div>
+
+                <form class="newsletter-form" id="newsletterForm">
+                    <div class="newsletter-form-group">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
+                        <button type="submit" id="newsletterBtn">
+                            <span id="newsletterBtnText">Subscribe</span>
+                            <i data-lucide="check" id="newsletterCheck" style="display: none;"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <p class="newsletter-disclaimer">Join 50,000+ food lovers. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i data-lucide="chef-hat"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>Savory Stories</h3>
+                            <p>Culinary Adventures</p>
+                        </div>
+                    </div>
+                    
+                    <p class="footer-description">
+                        Discover amazing flavors and create memorable meals with our carefully curated recipes, 
+                        expert cooking tips, and inspiring culinary stories.
+                    </p>
+
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <span>hello@savorystories.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i data-lucide="facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i data-lucide="youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Recipes</h4>
+                        <ul>
+                            <li><a href="#">Appetizers</a></li>
+                            <li><a href="#">Main Courses</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Beverages</a></li>
+                            <li><a href="#">Quick Meals</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Blog</h4>
+                        <ul>
+                            <li><a href="#">Cooking Tips</a></li>
+                            <li><a href="#">Techniques</a></li>
+                            <li><a href="#">Seasonal</a></li>
+                            <li><a href="#">Nutrition</a></li>
+                            <li><a href="#">Kitchen Tools</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>About</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Meet the Chefs</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 Savory Stories. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Recipe Modal -->
+    <div class="modal-overlay" id="recipeModal">
+        <div class="modal">
+            <div class="modal-header">
+                <img id="modalImage" src="" alt="" class="modal-image">
+                <button class="modal-close" id="modalClose">
+                    <i data-lucide="x"></i>
+                </button>
+                <div class="modal-difficulty" id="modalDifficulty"></div>
+            </div>
+
+            <div class="modal-content">
+                <div class="modal-title-section">
+                    <div class="modal-title-content">
+                        <h1 id="modalTitle"></h1>
+                        <p id="modalDescription"></p>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="modal-action-btn">
+                            <i data-lucide="printer"></i>
+                        </button>
+                        <button class="modal-action-btn">
+                            <i data-lucide="share-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modal-info" id="modalInfo"></div>
+                <div class="modal-tags" id="modalTags"></div>
+
+                <div class="modal-recipe-content">
+                    <div class="modal-ingredients">
+                        <h2>Ingredients</h2>
+                        <div class="ingredients-container">
+                            <ul id="modalIngredients"></ul>
+                        </div>
+                    </div>
+
+                    <div class="modal-instructions">
+                        <h2>Instructions</h2>
+                        <div class="instructions-container" id="modalInstructions"></div>
+                    </div>
+                </div>
+
+                <div class="modal-buttons">
+                    <button class="btn-primary">Save Recipe</button>
+                    <button class="btn-secondary">Add to Meal Plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
