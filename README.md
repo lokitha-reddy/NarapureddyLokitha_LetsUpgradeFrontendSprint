@@ -29,7 +29,7 @@ Eye-catching banner with featured recipe and compelling statistics
 
 ### Interactive Search
 Real-time recipe search with filtering capabilities
-![Interactive Section](<img width="1812" height="918" alt="interactive png" src="https://github.com/user-attachments/assets/e55fc539-60f5-438f-8549-fd9cf5a04166" />
+!(<img width="1812" height="918" alt="interactive png" src="https://github.com/user-attachments/assets/e55fc539-60f5-438f-8549-fd9cf5a04166" />
 )
 
 ### Recipe Categories
