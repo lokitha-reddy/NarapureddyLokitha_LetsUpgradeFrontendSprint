@@ -29,28 +29,30 @@ Eye-catching banner with featured recipe and compelling statistics
 
 ### Interactive Search
 Real-time recipe search with filtering capabilities
-!(<img width="1812" height="918" alt="interactive png" src="https://github.com/user-attachments/assets/e55fc539-60f5-438f-8549-fd9cf5a04166" />
-)
+<img width="1812" height="918" alt="interactive png" src="https://github.com/user-attachments/assets/e55fc539-60f5-438f-8549-fd9cf5a04166" />
 
 ### Recipe Categories
 Visual category cards with hover effects and recipe counts
-![Recipe Categories Section](images/recipecategorie.png)
+<img width="1815" height="843" alt="recipecategorie png" src="https://github.com/user-attachments/assets/c080eb3e-93d9-4cb8-b372-1f086873605c" />
+
 
 ### Recipe Collection
 Detailed recipe cards with ratings, difficulty levels, and cooking times
-![Recipe Collection Section](images/recipecollection.png)
+<img width="1772" height="813" alt="recipecollection png" src="https://github.com/user-attachments/assets/add31a15-f611-455a-97fc-73cc86e06926" />
 
 ### Recipe Modal
 Full-screen detailed view with ingredients and step-by-step instructions
-![Recipe Modal Section](images/recipemodal.png)
+<img width="846" height="883" alt="recipemodal png" src="https://github.com/user-attachments/assets/1659ba1b-b4ca-4ec1-a5fe-1fa6b0917f8f" />
 
 ### Blog Section
 Cooking tips, techniques, and culinary stories from expert chefs
-![Blog Section](images/blog.png)
+<img width="1744" height="877" alt="blog png" src="https://github.com/user-attachments/assets/436761b1-ed6b-4cab-b54a-565185f80e81" />
+
 
 ### Newsletter Subscription
 Email signup with animated feedback
-![Subscription Section](images/subscription.png)
+<img width="1396" height="525" alt="subscription png" src="https://github.com/user-attachments/assets/34bb4e21-50ad-4dc2-a4d0-0457764376da" />
+
 
 ### Responsive Design – Mobile-first approach with seamless cross-device experience
 
