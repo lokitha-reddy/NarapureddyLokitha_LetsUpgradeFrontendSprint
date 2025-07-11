@@ -83,9 +83,9 @@ savory-stories/
 1. Clone the repository or download the source files.
 2. Open `index.html` in your browser.
 3. Customize content
-    > Modify recipe data in script.js
-    > Update styling in styles.css
-    > Replace images with your own food photography
+    * Modify recipe data in script.js
+    * Update styling in styles.css
+    * Replace images with your own food photography
 
 ---
 
@@ -93,30 +93,30 @@ savory-stories/
 ## 📱 Responsiveness
 
 This website is fully responsive and provides an optimal viewing experience across all devices:
-  > Mobile: < 640px - Touch-friendly navigation and stacked layouts
-  > Tablet: 640px - 768px - Balanced grid layouts
-  > Desktop: 768px+ - Full-featured experience with multi-column layouts
+  * Mobile: < 640px - Touch-friendly navigation and stacked layouts
+  * Tablet: 640px - 768px - Balanced grid layouts
+  * Desktop: 768px+ - Full-featured experience with multi-column layouts
 
 ---
 
 ## 🎨 Design Highlights
 
-  • Color Palette – Warm, food-inspired colors (Orange #ea580c, Red #dc2626, Amber #d97706)
-  • Typography – System fonts for optimal performance and readability
-  • Animations – Smooth hover effects, scale transforms, and micro-interactions
-  • Layout – CSS Grid and Flexbox for modern, flexible layouts
-  • Accessibility – Semantic HTML and proper contrast ratios
+  * Color Palette – Warm, food-inspired colors (Orange #ea580c, Red #dc2626, Amber #d97706)
+  * Typography – System fonts for optimal performance and readability
+  * Animations – Smooth hover effects, scale transforms, and micro-interactions
+  * Layout – CSS Grid and Flexbox for modern, flexible layouts
+  * Accessibility – Semantic HTML and proper contrast ratios
 
 ---
 ## 🏗️ Learning Outcomes
 
 This project demonstrates mastery of:
-  > Modern CSS – Grid, Flexbox, custom properties, and animations
-  > Vanilla JavaScript – DOM manipulation, event handling, and state management
-  > Responsive Design – Mobile-first approach with progressive enhancement
-  > UI/UX Design – User-centered design with intuitive navigation
-  > Performance – Optimized loading and smooth interactions
-  > Code Organization – Clean, maintainable, and well-documented code
+  * Modern CSS – Grid, Flexbox, custom properties, and animations
+  * Vanilla JavaScript – DOM manipulation, event handling, and state management
+  * Responsive Design – Mobile-first approach with progressive enhancement
+  * UI/UX Design – User-centered design with intuitive navigation
+  * Performance – Optimized loading and smooth interactions
+  * Code Organization – Clean, maintainable, and well-documented code
 
 ---
 ## 🏷️ Tags
@@ -127,9 +127,9 @@ This project demonstrates mastery of:
 
 ##📣 Acknowledgments
 
-Pexels for providing beautiful, free food photography
-Lucide for clean and consistent iconography
-Food bloggers and chefs worldwide for culinary inspiration
-Open source community for continuous learning and improvement
+* Pexels for providing beautiful, free food photography
+* Lucide for clean and consistent iconography
+* Food bloggers and chefs worldwide for culinary inspiration
+* Open source community for continuous learning and improvement
 
 ---
