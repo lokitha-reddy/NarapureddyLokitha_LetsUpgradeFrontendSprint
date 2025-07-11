@@ -101,23 +101,22 @@ This website is fully responsive and provides an optimal viewing experience acro
 
 ## 🎨 Design Highlights
 
-Color Palette – Warm, food-inspired colors (Orange #ea580c, Red #dc2626, Amber #d97706)
-Typography – System fonts for optimal performance and readability
-Animations – Smooth hover effects, scale transforms, and micro-interactions
-Layout – CSS Grid and Flexbox for modern, flexible layouts
-Accessibility – Semantic HTML and proper contrast ratios
+  • Color Palette – Warm, food-inspired colors (Orange #ea580c, Red #dc2626, Amber #d97706)
+  • Typography – System fonts for optimal performance and readability
+  • Animations – Smooth hover effects, scale transforms, and micro-interactions
+  • Layout – CSS Grid and Flexbox for modern, flexible layouts
+  • Accessibility – Semantic HTML and proper contrast ratios
 
 ---
 ## 🏗️ Learning Outcomes
 
 This project demonstrates mastery of:
-
-Modern CSS – Grid, Flexbox, custom properties, and animations
-Vanilla JavaScript – DOM manipulation, event handling, and state management
-Responsive Design – Mobile-first approach with progressive enhancement
-UI/UX Design – User-centered design with intuitive navigation
-Performance – Optimized loading and smooth interactions
-Code Organization – Clean, maintainable, and well-documented code
+  > Modern CSS – Grid, Flexbox, custom properties, and animations
+  > Vanilla JavaScript – DOM manipulation, event handling, and state management
+  > Responsive Design – Mobile-first approach with progressive enhancement
+  > UI/UX Design – User-centered design with intuitive navigation
+  > Performance – Optimized loading and smooth interactions
+  > Code Organization – Clean, maintainable, and well-documented code
 
 ---
 ## 🏷️ Tags
