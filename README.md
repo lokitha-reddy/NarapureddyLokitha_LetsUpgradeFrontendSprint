@@ -108,6 +108,7 @@ This website is fully responsive and provides an optimal viewing experience acro
   * Accessibility – Semantic HTML and proper contrast ratios
 
 ---
+
 ## 🏗️ Learning Outcomes
 
 This project demonstrates mastery of:
@@ -119,6 +120,7 @@ This project demonstrates mastery of:
   * Code Organization – Clean, maintainable, and well-documented code
 
 ---
+
 ## 🏷️ Tags
 
 `#HTML5` `#CSS3` `#JavaScript` `#ResponsiveDesign` `#FoodBlog` `#RecipeWebsite` `#VanillaJS` `#FrontendDevelopment` `#WebDesign` `#CulinaryTech`
